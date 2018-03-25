@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class PlayButtonTransition : MonoBehaviour {
     
-    bool m_SceneLoaded;
     public Button button;
     public string sceneText;
 
@@ -23,12 +22,8 @@ public class PlayButtonTransition : MonoBehaviour {
     //Load the second Scene when this Button is pressed
     void LoadScene2Button()
     {
-        //Check that the second Scene hasn't been added yet
-        if (m_SceneLoaded == false)
-        {
-            SceneManager.LoadScene(sceneText, LoadSceneMode.Single);
-            SceneManager.SetActiveScene(SceneManager.GetSceneByName(sceneText));
-        }
+        SceneManager.LoadScene(sceneText, LoadSceneMode.Single);
+        SceneManager.SetActiveScene(SceneManager.GetSceneByName(sceneText));
     }
 
 }

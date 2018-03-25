@@ -23,7 +23,6 @@ public class Moving : MonoBehaviour {
 	}
 
 	IEnumerator moveForward() {
-		Debug.Log ("NICE");
 		test.AddForce (new Vector2 (-200, 0));
 		yield return new WaitForSeconds (5);
 		test.AddForce (new Vector2(200, 0));

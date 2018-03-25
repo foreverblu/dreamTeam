@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{AAE61DB9-3DDE-E4E2-1A23-90320F105880}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Lobby Scripts/PopupTabButton.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Lobby Scripts/PopupTabButton.cs" Line="11" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Dream_220Game_2201 PreferredExecutionTarget="Unity.Editor" />
+  <MultiItemStartupConfigurations />
+</Properties>

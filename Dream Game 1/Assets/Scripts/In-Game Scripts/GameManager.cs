@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -38,6 +39,9 @@ public class GameManager : MonoBehaviour
         {
             player1.SendMessage("Respawn");
             HP1 = 100;
+			GameObject.Find ("WinText").GetComponent<Text> ().text = "Player 2 Wins";
+			GameObject.Find ("WinText").GetComponent<Text> ().enabled = true;
+
         }
     }
 
@@ -53,6 +57,8 @@ public class GameManager : MonoBehaviour
         {
             player2.SendMessage("Respawn");
             HP2 = 100;
+			GameObject.Find ("WinText").GetComponent<Text> ().text = "Player 1 Wins";
+			GameObject.Find ("WinText").GetComponent<Text> ().enabled = true;
         }
     }
 }
